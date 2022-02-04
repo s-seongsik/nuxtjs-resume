@@ -6,7 +6,7 @@ export default {
     base: '/portfolio/' // github repository name
   },
   env: {
-    baseUrl: process.env.BASE_URL || 'http://domain/portfolio'
+    baseUrl: process.env.BASE_URL || 'http://domain/portfolio/'
   },
   head: {
     titleTemplate: '%s - 서성식',
