@@ -30,7 +30,11 @@
                 <v-col sm="6">
                     <v-card elevation="0" class="mx-auto">
                         <ul>
-                            <li v-for="(text, index) in value.contents" :key="index"><p style="margin-bottom: 0.5rem; font-size:20px;">{{text}}</p></li>
+                            <li v-for="(value, index) in value.contents" :key="index">
+                              
+                              <p v-if="value.link" style="margin-bottom: 0.5rem; font-size:20px;"><a :href="value.link" target="_blank">{{value.text}}</a></p>
+                              <p v-else style="margin-bottom: 0.5rem; font-size:20px;">{{value.text}}</p>
+                            </li>
                         </ul>
                     </v-card>
                 </v-col>
@@ -47,24 +51,6 @@ import { mapState }from "vuex"
 export default {
     computed: {
         ...mapState(['project'])
-    },
-    data () {
-      return {
-        items: [
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/squirrel.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/sky.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/bird.jpg',
-          },
-          {
-            src: 'https://cdn.vuetifyjs.com/images/carousel/planet.jpg',
-          },
-        ],
-      }
     },
 }
 </script>

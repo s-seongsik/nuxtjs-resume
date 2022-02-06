@@ -9,7 +9,7 @@
                 <v-col sm="3">
                     <v-card elevation="0" style="text-align:right; color:gray;" class="mx-auto">
                         <h2 style="font-size:25px; margin-bottom:0;">{{ value.date}}</h2>
-                        <p>{{ value.status }}</p>
+                        <h4>{{ value.status }}</h4>
                     </v-card>
                 </v-col>
                 

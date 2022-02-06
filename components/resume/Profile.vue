@@ -4,7 +4,7 @@
         <v-col sm="6">
             <v-card class="mx-auto" max-width="280px" elevation="0" >
                 <v-img src="images/profile/seongsik.jpg"></v-img>
-                <v-card-text style="text-align:center;">Full-Stack Developer</v-card-text>
+                <v-card-text style="text-align:center;">{{profile.data.subText}}</v-card-text>
             </v-card>
         </v-col>
 

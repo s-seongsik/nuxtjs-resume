@@ -21,9 +21,10 @@ export default {
       { name: 'format-detection', content: 'telephone=no' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: 'portfolio`/favicon.ico' },
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
     ]
   },
+  // Global font css
   css: ['~/assets/css/font/SUIT-Variable.css'],
   plugins: [
   ],
