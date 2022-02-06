@@ -15,10 +15,8 @@
                 <v-col sm="9">
                     <v-card elevation="0" class="mx-auto" style="padding:5px;">
                         <v-row>
-                            <v-col cols="12" sm="3" v-for="(c_value, c_index) in value.contents" :key="c_index">
-                                <ul>
-                                    <li><p style="font-size:20px;">{{c_value}}</p></li>
-                                </ul>
+                            <v-col cols="12" sm="2" v-for="(c_value, c_index) in value.badge" :key="c_index">
+                                    <img style="margin: 0px auto;" :alt="c_value.title" :src ="`https://img.shields.io/badge/` + c_value.title+`-`+c_value.backgroundColor+`.svg?&style=for-the-badge&logo=` + c_value.logo +`&logoColor=`+ c_value.logoColor"/>  
                             </v-col>
                         </v-row>
                     </v-card>
@@ -26,6 +24,7 @@
             </v-row>
             <v-divider v-if="index<skill.data.length-1"></v-divider>
         </div>
+        
 </v-container>
 </template>
 
@@ -34,7 +33,7 @@ import { mapState }from "vuex"
 export default {
     computed: {
         ...mapState(['skill'])
-    }
+    },
 }
 </script>
 
