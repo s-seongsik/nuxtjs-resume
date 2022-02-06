@@ -13,7 +13,7 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/demo.png',
+                    src: 'images/project/wizcore/demo.png',
                   },
               ],
           },
@@ -29,7 +29,7 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/laundrygo.png',
+                    src: 'images/project/wizcore/laundrygo.png',
                   },
               ],
           },
@@ -46,10 +46,10 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/wimo_01.png',
+                    src: 'images/project/wizcore/wimo_01.png',
                   },
                   {
-                    src: 'project/wizcore/wimo_02.png',
+                    src: 'images/project/wizcore/wimo_02.png',
                   },
               ],
           },
@@ -66,10 +66,10 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/jeongin_01.png',
+                    src: 'images/project/wizcore/jeongin_01.png',
                   },
                   {
-                    src: 'project/wizcore/jeongin_02.png',
+                    src: 'images/project/wizcore/jeongin_02.png',
                   },
               ],
           },
@@ -88,55 +88,55 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/pstech_01.png',
+                    src: 'images/project/wizcore/pstech_01.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_02.png',
+                    src: 'images/project/wizcore/pstech_02.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_03.png',
+                    src: 'images/project/wizcore/pstech_03.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_04.png',
+                    src: 'images/project/wizcore/pstech_04.png',
                   },
                   {
                     src: 'project/wizcore/pstech_05.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_06.png',
+                    src: 'images/project/wizcore/pstech_06.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_07.png',
+                    src: 'images/project/wizcore/pstech_07.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_08.png',
+                    src: 'images/project/wizcore/pstech_08.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_09.png',
+                    src: 'images/project/wizcore/pstech_09.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_09.png',
+                    src: 'images/project/wizcore/pstech_09.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_10.png',
+                    src: 'images/project/wizcore/pstech_10.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_11.png',
+                    src: 'images/project/wizcore/pstech_11.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_12.png',
+                    src: 'images/project/wizcore/pstech_12.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_13.png',
+                    src: 'images/project/wizcore/pstech_13.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_14.png',
+                    src: 'images/project/wizcore/pstech_14.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_15.png',
+                    src: 'images/project/wizcore/pstech_15.png',
                   },
                   {
-                    src: 'project/wizcore/pstech_16.png',
+                    src: 'images/project/wizcore/pstech_16.png',
                   },
               ],
           },
@@ -153,25 +153,25 @@ export const state = () => ({
               ],
               Images: [
                   {
-                    src: 'project/wizcore/mando_01.png',
+                    src: 'images/project/wizcore/mando_01.png',
                   },
                   {
-                    src: 'project/wizcore/mando_02.png',
+                    src: 'images/project/wizcore/mando_02.png',
                   },
                   {
-                    src: 'project/wizcore/mando_03.png',
+                    src: 'images/project/wizcore/mando_03.png',
                   },
                   {
-                    src: 'project/wizcore/mando_04.png',
+                    src: 'images/project/wizcore/mando_04.png',
                   },
                   {
-                    src: 'project/wizcore/mando_05.png',
+                    src: 'images/project/wizcore/mando_05.png',
                   },
                   {
-                    src: 'project/wizcore/mando_06.png',
+                    src: 'images/project/wizcore/mando_06.png',
                   },
                   {
-                    src: 'project/wizcore/mando_07.png',
+                    src: 'images/project/wizcore/mando_07.png',
                   },
               ],
           },
@@ -188,7 +188,7 @@ export const state = () => ({
             ],
             Images: [
                 {
-                  src: 'project/wizcore/denso.png',
+                  src: 'images/project/wizcore/denso.png',
                 },
             ],
         },
