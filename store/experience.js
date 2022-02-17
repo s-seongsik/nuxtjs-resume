@@ -2,7 +2,7 @@ export const state = () => ({
     data: [
         {
             title : '위즈코어',
-            position : 'SF사업팀 풀스택 개발자',
+            position : 'SW개발팀 웹 개발자',
             startDate : '2019. 12',
             endDate : '현재',
             contents : [
