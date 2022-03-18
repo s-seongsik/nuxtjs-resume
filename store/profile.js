@@ -8,18 +8,19 @@ export const state = () => ({
                 icon : 'mdi-email', 
             },
             {
-                text : '010-2255-3818',
-                icon : 'mdi-phone',
-            },
-            {
-                text : 'https://github.com/s-seongsik',
+                text : '깃허브',
                 link : 'https://github.com/s-seongsik',
                 icon : 'mdi-github',
             },
             {
-                text : 'https://s-seongsik.github.io',
+                text : '기술 블로그',
                 link : 'https://s-seongsik.github.io',
                 icon : 'mdi-alpha-b-circle'
+            },
+            {
+                text : '기술 핸드북',
+                link : 'https://s-seongsik.github.io/sik-book/',
+                icon : 'mdi-book-open'
             },
         ]
     }

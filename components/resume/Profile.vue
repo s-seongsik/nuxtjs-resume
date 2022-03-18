@@ -28,7 +28,7 @@
                         </v-list-item-icon>
 
                         <v-list-item-content>
-                            <v-list-item-title v-if="value.link"><a :href="value.link" target="_blank">{{value.link}}</a></v-list-item-title>
+                            <v-list-item-title v-if="value.link"><a :href="value.link" target="_blank">{{value.text}}</a></v-list-item-title>
                             <v-list-item-title v-else>{{value.text}}</v-list-item-title>
                             <!-- <v-list-item-subtitle>Email</v-list-item-subtitle> -->
                         </v-list-item-content>

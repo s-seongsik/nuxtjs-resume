@@ -4,26 +4,6 @@
 export const state = () => ({
     data: [
         {
-            title : 'Back-end',
-            badge : [
-                {
-                    title:'Python', backgroundColor: 'F37626',logo:'Python', logoColor:'ffffff'
-                },
-                {
-                    title:'Java', backgroundColor: '007396',logo:'Java', logoColor:'ffffff'
-                },
-                {
-                    title:'Spring', backgroundColor: '6DB33F',logo:'Spring', logoColor:'ffffff'
-                },
-                {
-                    title:'FastAPI', backgroundColor: '009688',logo:'FastAPI', logoColor:'ffffff'
-                },
-                {
-                    title:'Node.js', backgroundColor: '339933',logo:'Node.js', logoColor:'ffffff'
-                },
-            ]
-        },
-        {
             title : 'Front-end',
             badge : [
                 {
@@ -58,6 +38,20 @@ export const state = () => ({
                 },
                 {
                     title:'ES6', backgroundColor: 'F7DF1E',logo:'ES6', logoColor:'ffffff'
+                },
+            ]
+        },
+        {
+            title : 'Back-end',
+            badge : [
+                {
+                    title:'Python', backgroundColor: 'F37626',logo:'Python', logoColor:'ffffff'
+                },
+                {
+                    title:'FastAPI', backgroundColor: '009688',logo:'FastAPI', logoColor:'ffffff'
+                },
+                {
+                    title:'Node.js', backgroundColor: '339933',logo:'Node.js', logoColor:'ffffff'
                 },
             ]
         },

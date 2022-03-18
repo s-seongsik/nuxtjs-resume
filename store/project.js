@@ -1,5 +1,45 @@
 export const state = () => ({
-  data: [
+  data: [ 
+          {
+            title : '실적관리 서비스 개발',
+            company: '위즈코어',
+            startDate : '2022. 01',
+            endDate : '2022. 03',
+            contents : [
+              {
+                text:'사내 업무 실적을 관리하기 위한 프로그램',
+              },
+              {
+                text:'Vue.js(2)기반으로 프론트엔드 개발',
+              },
+              {
+                text:'Vuetify.js로 UX/UI 개발 및 Vuex를 활용한 상태관리',
+              },
+              {
+                text:'axios 모듈을 활용한 HTTP 통신 개발',
+              },
+              {
+                text:'webpack, babel, ESLint로 프론트엔드 개발환경 최적화',
+              },
+              {
+                text:'node.js/Express로 백엔드 REST-API 서버 개발',
+              },
+              {
+                text:'kakao cloud, docker를 서버 인프라로 사용',
+              },
+              {
+                text:'maria-db를 데이터베이스로 사용',
+              },
+            ],
+            Images: [
+              {
+                src: 'images/project/wizcore/vue.png',
+              },
+              {
+                src: 'images/project/wizcore/express.png',
+              },
+            ],
+          },
           {
             title : '위즈코어 DEMO ROOM REST-API 개발',
             company: '위즈코어',
@@ -28,17 +68,17 @@ export const state = () => ({
           {
             title : '런드리고 데이터 집계 스케줄러 프로그램 개발',
             company: '위즈코어',
-            startDate : '2022. 11',
-            endDate : '2022. 12',
+            startDate : '2021. 11',
+            endDate : '2021. 12',
             contents : [
               {
-                text:'순수 python과 sqlalchemy으로 maria-db와 연동하여 개발',
+                text:'Python3과 sqlalchemy으로 maria-db와 연동하여 개발',
               },
               {
-                text:'AWS Linux서버에 Crontab을 활용한 스케줄러 등록',
+                text:'AWS EC2에 Crontab을 활용한 스케줄러 등록',
               },
               {
-                text:'read-server에서 Raw 데이터를 일별로 집계하여 write-server로 insert해주는 작업'
+                text:'Read-Server에서 Raw 데이터를 일 별로 집계하여 Write-Server로 insert해주는 잡스케줄러'
               },
             ],
             Images: [
@@ -48,22 +88,22 @@ export const state = () => ({
             ],
           },
           {
-            title : '위즈코어 WIMO 클라우드 서비스 REST-API 개발',
+            title : 'WIMO 클라우드 서비스 REST-API 개발',
             company: '위즈코어',
             startDate : '2021. 10',
             endDate : '2021. 12',
             contents : [
               {
-                text:'FastAPI를 활용한 REST-API 서버 구축',
+                text:'Wimo 서비스에 사용되는 REST-API 서버 개발',
               },
               {
-                text:'위즈코어 WIMO 클라우드 서비스를 등록/조회/수정 로직을 처리하는 REST-API 개발',
+                text:'기존 외부업체에서 작성된 API서버를 FastAPI로 이전하여 자체 관리로 전환',
               },
               {
-                text:'서비스 등록 및 재등록 -> 비동기 처리로 내부 서비스 로직을 호출 -> 완료시 고객 이메일 발송 테스트완료',
+                text:'Naver 클라우드, Docker 컨테이너 기반 배포',
               },
               {
-                text:'Naver Cloud와 Docker container 기반 서버 구축'
+                text:'Swagger UI로 API 명세서를 작성하여 팀 공유 및 관리'
               },
             ],
             Images: [
@@ -76,7 +116,7 @@ export const state = () => ({
             ],
           },
           {
-            title : '위즈코어 정인산업 AI실증 사업 화면개발',
+            title : 'AI실증 사업 화면개발',
             company: '위즈코어',
             startDate : '2021. 03',
             endDate : '2021. 04',
@@ -110,22 +150,22 @@ export const state = () => ({
             endDate : '2021. 09',
             contents : [
               {
-                text:'Echart.js/D3.js 라이브러리를 활용한 프론트엔드 화면개발',
+                text:'Nexpom 모니터링 솔루션 기반 시스템 구축 (1인)',
               },
               {
-                text:'Spring/Spring MVC/Mybatis 백엔드 기준정보 개발',
+                text:'Echart.js/D3.js 라이브러리를 활용한 대시보드 개발',
               },
               {
-                text:'데이터 시각화에 필요한 데이터 수집 및 정제를 처리하는 MSSQL 프로시저 개발',
+                text:'프로덕트 디자이너와 함께 컴포넌트와 인터랙션을 구현',
               },
               {
-                text:'SPEC 관리 항목에 대하여 알람 기능 개발, 이를 통해 수시로 작업장에 가서 확인하던 작업을 PC에서 관리함으로서 불필요한 업무낭비를 개선',
+                text:'차트 구현에 필요한 데이터 정제 및 집계를 처리하는 MSSQL 프로시저 개발',
+              },
+              {
+                text:'데이터 SPEC관리 항목에 대한 알람 기능 개발',
               },
               {
                 text:'사용자들은 데이터 상태를 실시간으로 관리할 수 있으며, 이상 발생시 신속한 대응이 가능함',
-              },
-              {
-                text:'월간 수 억개의 데이터가 쌓여 DB 성능저하 및 실시간 모니터링 Interval이 지연되는 문제가 발생 => DB구조 및 쿼리를 개선하여 interval을 xx초->y초로 감소',
               },
             ],
             Images: [
@@ -183,23 +223,27 @@ export const state = () => ({
             ],
           },
           {
-            title : '만도 Smart-Factory 시스템 구축(SI상주)',
+            title : '만도 Smart-Factory 시스템 구축',
             company: '위즈코어',
             startDate : '2020. 07',
             endDate : '2021. 01',
             contents : [
               {
+                text:'프로덕트 디자이너와 함께 컴포넌트와 인터랙션을 구현',
+              },
+              {
+                text:'Nexpom 모니터링 솔루션 팀의 일원으로 프론트엔드 개발 및 유지보수 참여',
+              },
+              {
                 text:'Echart.js/Toast Ui Grid 라이브러리를 활용한 프론트엔드 화면개발',
               },
               {
-                text:'총 15개 화면 개발 진행(화면 설계, 테이블 설계, 프로시저 개발, 화면 개발 수행)',
+                text:'화면 설계와 고객 설비 데이터를 집계 및 변환하여 유의미한 차트로 인사이트를 제공',
               },
               {
                 text:'Raw 데이터를 일별로 집계하는 summary 프로시저 개발',
               },
-              {
-                text:'1년간 유지보수 진행(헬프데스크 운영)',
-              },
+              
             ],
             Images: [
               {
@@ -241,7 +285,7 @@ export const state = () => ({
                 text:'Flask-RESTPlus를 활용한 API 개발',
               },
               {
-                text:'Linux GPU에 서버 구축',
+                text:'GPU 서버와, docker 컨테이너로 서버 인프라 구축',
               },
             ],
             Images: [
