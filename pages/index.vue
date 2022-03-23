@@ -1,17 +1,7 @@
 <template>
   <v-container>
-    <v-row justify="center" >
-      <v-col cols="12" md="8">
+        <RfProfile/>
         <Profile/>
-        <About/>
-        <Skill/>
-        <Experience/>
-        <Project/>
-        <Opensource/>
-        <Certificate/>
-        <Education/>
-      </v-col>
-    </v-row>
   </v-container>
 </template>
 
@@ -19,6 +9,7 @@
 export default {
   name: 'IndexPage',
   components:{
+    /** 기존 컴포넌트 */
     Profile: () => import('~/components/resume/Profile.vue'),
     About: () => import('~/components/resume/About.vue'),
     Skill: () => import('~/components/resume/Skill.vue'),
@@ -27,6 +18,9 @@ export default {
     Certificate: () => import('~/components/resume/Certificate.vue'),
     Education: () => import('~/components/resume/Education.vue'),
     Opensource: () => import('~/components/resume/Opensource.vue'),
+
+    /** 리팩토링 컴포넌트 */
+    RfProfile: () => import('~/components/refactoring/Profile.vue'),
   }
 }
 </script>
