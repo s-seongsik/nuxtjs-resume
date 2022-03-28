@@ -13,7 +13,7 @@
                     <p v-if="index<about.data.length-1" style="margin-bottom: 1.5rem; font-size:20px;">{{value}}</p>
                     <p v-else style="font-size:20px;">{{value}}</p>
                 </div>
-                </v-card>
+            </v-card>
         </v-col>
     </v-row>
 </v-container>

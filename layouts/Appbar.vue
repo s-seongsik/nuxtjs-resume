@@ -1,18 +1,16 @@
 <template>
-  
-  <v-app-bar id="app-bar" app>
+  <v-app-bar id="app-bar" app elevation="0">
     <v-row justify="center" align="center">
-        <v-col cols="12" md="8">
-          <h1>SSS's Portfolio</h1>
-        </v-col>
-
-
-        <v-col sm="12" style="padding:0">
-              <v-progress-linear
+      <v-flex xs12 sm12 >
+        <v-toolbar-title>
+          <v-progress-linear 
                 v-model="value"
-              ></v-progress-linear>
-        </v-col>
-      </v-row>
+                height="50"
+              ><h2>경력 기술서</h2>
+          </v-progress-linear>
+        </v-toolbar-title>
+      </v-flex>
+      </v-row>  
   </v-app-bar>
 </template>
 

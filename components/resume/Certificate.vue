@@ -12,7 +12,6 @@
                         <h4>{{ value.status }}</h4>
                     </v-card>
                 </v-col>
-                
                 <v-col sm="9">
                     <v-card elevation="0" class="mx-auto" style="padding-left:2rem;">
                         <h2 style="font-size:25px; margin-bottom:0;">{{ value.title }}</h2>

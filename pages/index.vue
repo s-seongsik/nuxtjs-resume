@@ -1,8 +1,11 @@
 <template>
-  <v-container>
-        <RfProfile/>
-        <Profile/>
-  </v-container>
+  <v-row justify="center">
+    <v-col cols="12" md="9">
+          <RfProfile/>
+          <v-divider></v-divider>
+          <RfExperience/>
+    </v-col>
+  </v-row>
 </template>
 
 <script>
@@ -21,6 +24,7 @@ export default {
 
     /** 리팩토링 컴포넌트 */
     RfProfile: () => import('~/components/refactoring/Profile.vue'),
+    RfExperience: () => import('~/components/refactoring/Experience.vue'),
   }
 }
 </script>
