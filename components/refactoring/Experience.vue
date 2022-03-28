@@ -1,5 +1,4 @@
 <template>
-  <v-container fluid grid-list-md>
     <v-layout row wrap>
         <v-flex xs12 sm12 md12 lg12 xl12>
             <v-card  elevation="0" style="text-align:left; margin-bottom:1rem;" class="mx-auto">
@@ -26,13 +25,7 @@
                 </ul>
             </v-card>
         </v-flex>
-
-    
-    
-        
-
     </v-layout>
-</v-container>
 </template>
 
 <script>

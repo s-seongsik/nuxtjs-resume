@@ -1,11 +1,13 @@
 <template>
+<v-container grid-list-md style="max-width: 2000px;">
   <v-row justify="center">
-    <v-col cols="12" md="9">
+    <v-col cols="12" md="8">
           <RfProfile/>
-          <v-divider></v-divider>
+          <v-divider style="margin-top : 2rem; margin-bottom : 2rem;"></v-divider>
           <RfExperience/>
     </v-col>
   </v-row>
+</v-container>
 </template>
 
 <script>
