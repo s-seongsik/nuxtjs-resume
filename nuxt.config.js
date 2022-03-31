@@ -3,14 +3,14 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   target: 'static',
   router: {
-    base: '/portfolio/' // github repository name
+    base: '/resume/' // github repository name
   },
   env: {
-    baseUrl: process.env.BASE_URL || 'http://domain/portfolio/'
+    baseUrl: process.env.BASE_URL || 'http://domain/resume/'
   },
   head: {
     titleTemplate: '%s - 서성식',
-    title: '포트폴리오',
+    title: 'test',
     htmlAttrs: {
       lang: 'ko'
     },
@@ -56,8 +56,8 @@ export default {
   },
 
   server: {
-    // port: 8080, // default: 3000
-    // host: '0.0.0.0', // default: localhost,
-    // timing: false
+    port: 4040, // default: 3000
+    host: '0.0.0.0', // default: localhost,
+    timing: false
   }
 }

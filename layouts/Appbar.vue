@@ -6,7 +6,7 @@
           <v-progress-linear 
                 v-model="value"
                 height="50"
-              ><h2>경력 기술서</h2>
+              ><h2>레이아웃</h2>
           </v-progress-linear>
         </v-toolbar-title>
       </v-flex>

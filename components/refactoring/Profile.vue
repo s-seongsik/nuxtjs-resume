@@ -1,17 +1,17 @@
 <template>
-  <v-layout row wrap>
-    <v-flex xs12 sm12>
+  <v-row>
+    <v-col cols="12" sm="12" md="12" lg="12" xl="12">
       <v-card elevation="0">
         <v-list>
             <!-- about me -->
             <v-list-item >
-                   <h2 style="font-size:30px; color:rgb(60, 120, 216);">🧑‍💻 안녕하세요, 저는 개발자 서성식입니다.</h2>
+                   <h2>🧑‍💻 안녕하세요, 저는 개발자 서성식입니다.</h2>
             </v-list-item>
 
             <br>
 
             <v-list-item v-for="(value, index) in about.data" :key="index">
-                <p style="font-size:15px;">- {{value}}</p>
+                <p style="font-size:1.1rem; font-weight: bold;">- {{value}}</p>
             </v-list-item>
             
             <br>
@@ -27,11 +27,9 @@
                     <v-list-item-title v-else>{{value.text}}</v-list-item-title>
             </v-list-item>
           </v-list>
-
-        
       </v-card>
-    </v-flex>
-  </v-layout>
+    </v-col>
+  </v-row>
 </template>
 
 <script>

@@ -1,10 +1,12 @@
 <template>
-<v-container grid-list-md style="max-width: 2000px;">
+<v-container grid-list-md style="max-width: 2000px; margin-top:50px;">
   <v-row justify="center">
-    <v-col cols="12" md="8">
+    <v-col cols="12" md="6">
           <RfProfile/>
           <v-divider style="margin-top : 2rem; margin-bottom : 2rem;"></v-divider>
-          <RfExperience/>
+          <RfExperience/> 
+          <v-divider style="margin-top : 2rem; margin-bottom : 2rem;"></v-divider>
+          <RfSkill/>
     </v-col>
   </v-row>
 </v-container>
@@ -27,6 +29,7 @@ export default {
     /** 리팩토링 컴포넌트 */
     RfProfile: () => import('~/components/refactoring/Profile.vue'),
     RfExperience: () => import('~/components/refactoring/Experience.vue'),
+    RfSkill: () => import('~/components/refactoring/Skill.vue'),
   }
 }
 </script>
