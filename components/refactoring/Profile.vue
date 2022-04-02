@@ -5,13 +5,17 @@
         <v-list>
             <!-- about me -->
             <v-list-item >
-                   <h2>🧑‍💻 안녕하세요, 저는 개발자 서성식입니다.</h2>
+                   <h1>🧑‍💻 안녕하세요, 
+                    <br>
+                   저는 개발자 서성식입니다.
+                   </h1>
             </v-list-item>
 
             <br>
+            <br>
 
             <v-list-item v-for="(value, index) in about.data" :key="index">
-                <p style="font-size:1.1rem; font-weight: bold;">- {{value}}</p>
+                <p class="profile-paragraph">{{value}}</p>
             </v-list-item>
             
             <br>

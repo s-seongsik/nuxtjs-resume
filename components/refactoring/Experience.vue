@@ -7,21 +7,30 @@
         </v-col>
         
         
-        <v-col cols="12" sm="12" md="4" lg="3" xl="3">
+        <v-col cols="12" sm="12" md="4" lg="4" xl="5">
             <v-card elevation="0">
                 <h3>위즈코어</h3>
-                <p style="color:gray; margin-bottom:0;">프론트엔드 개발자</p>
-                <p style="color:gray">2019-12 ~ 현재</p>
+                <span style="color:gray; display: block;">Frontend Developer</span>
+                <span style="color:gray">2019-12 ~ 현재</span>
             </v-card>
         </v-col>
-        <v-col cols="12" sm="12" md="8" lg="9" xl="9">
-            <ul>
-                <li><p style="margin-bottom:0; font-size:1rem; font-weight: 400;"> 자사 서비스 API 개발 및 유지보수, 공장 모니터링 시스템 UX/UI 프론트엔드 개발</p></li>
-                <li><p style="margin-bottom:0; font-size:1rem; font-weight: 400;"> 자사 서비스 API 개발 및 유지보수, 공장 모니터링 시스템 UX/UI 프론트엔드 개발</p></li>
-                <li><p style="margin-bottom:0; font-size:1rem; font-weight: 400;"> 자사 서비스 API 개발 및 유지보수, 공장 모니터링 시스템 UX/UI 프론트엔드 개발</p></li>
-                <li><p style="margin-bottom:0; font-size:1rem; font-weight: 400;"> 자사 서비스 API 개발 및 유지보수, 공장 모니터링 시스템 UX/UI 프론트엔드 개발</p></li>
-                <li><p style="margin-bottom:0; font-size:1rem; font-weight: 400;"> 자사 서비스 API 개발 및 유지보수, 공장 모니터링 시스템 UX/UI 프론트엔드 개발</p></li>
-            </ul>
+        <v-col cols="12" sm="12" md="8" lg="8" xl="7">
+            <v-card elevation="0">
+                <h3>실적관리 서비스 개발</h3>
+                <p style="color:gray">2019-12 ~ 현재</p>
+            </v-card>
+            <v-card elevation="0">
+                <h4>프로젝트 설명</h4>
+                <p style="color:gray">사내 업무 실적을 관리하기 위한 프로그램</p>
+            </v-card>
+            <v-card elevation="0">
+                <h4>프로젝트 역할</h4>
+                <p style="color:gray">Vue.js(2)기반으로 프론트엔드 개발</p>
+            </v-card>
+            <v-card elevation="0">
+                <h4>프로젝트 사용기술</h4>
+                <p style="color:gray">2019-12 ~ 현재</p>
+            </v-card>
         </v-col>
     </v-row>
 </template>
