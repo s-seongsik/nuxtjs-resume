@@ -1,20 +1,20 @@
 <template>
   <v-row>
-    <v-col cols="12" sm="12" md="12" lg="12" xl="12">
+    <v-col cols="12">
       <v-card elevation="0">
         <v-list>
             <!-- about me -->
             <v-list-item >
                    <h1>🧑‍💻 안녕하세요, 
                     <br>
-                   저는 개발자 서성식입니다.
+                   저는 서성식입니다.
                    </h1>
             </v-list-item>
 
             <br>
             <br>
 
-            <v-list-item v-for="(value, index) in about.data" :key="index">
+            <v-list-item v-for="(value, index) in profile.data.text" :key="index">
                 <p class="profile-paragraph">{{value}}</p>
             </v-list-item>
             
@@ -24,7 +24,7 @@
             <v-list-item v-for="(value, index) in profile.data.contact" :key="index">
                 <v-list-item-icon>
                     <v-icon color="indigo">
-                    {{value.icon}}
+                      {{value.icon}}
                     </v-icon>
                 </v-list-item-icon>
                     <v-list-item-title v-if="value.link"><a :href="value.link" target="_blank">{{value.text}}</a></v-list-item-title>

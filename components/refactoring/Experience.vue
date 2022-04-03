@@ -1,36 +1,81 @@
 <template>
-    <v-row >
-        <v-col cols="12" sm="12" md="12" lg="12" xl="12">
-            <v-card  elevation="0" style="text-align:left; margin-bottom:1rem;" class="mx-auto">
-                <h2>Experience</h2>
+    <v-row>
+        <v-col cols="12">
+            <v-card  elevation="0">
+                <v-list>
+                    <v-list-item>
+                        <h2>Experience</h2>
+                    </v-list-item>
+                </v-list>
             </v-card>
         </v-col>
-        
-        
-        <v-col cols="12" sm="12" md="4" lg="4" xl="5">
-            <v-card elevation="0">
-                <h3>위즈코어</h3>
-                <span style="color:gray; display: block;">Frontend Developer</span>
-                <span style="color:gray">2019-12 ~ 현재</span>
-            </v-card>
-        </v-col>
-        <v-col cols="12" sm="12" md="8" lg="8" xl="7">
-            <v-card elevation="0">
-                <h3>실적관리 서비스 개발</h3>
-                <p style="color:gray">2019-12 ~ 현재</p>
-            </v-card>
-            <v-card elevation="0">
-                <h4>프로젝트 설명</h4>
-                <p style="color:gray">사내 업무 실적을 관리하기 위한 프로그램</p>
-            </v-card>
-            <v-card elevation="0">
-                <h4>프로젝트 역할</h4>
-                <p style="color:gray">Vue.js(2)기반으로 프론트엔드 개발</p>
-            </v-card>
-            <v-card elevation="0">
-                <h4>프로젝트 사용기술</h4>
-                <p style="color:gray">2019-12 ~ 현재</p>
-            </v-card>
+
+        <v-col cols="12">
+            <v-row v-for="(value,index) in experience.data" :key="index">
+                <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+                    <v-card elevation="0">
+                        <v-list>
+                            <v-list-item>
+                                <h3>{{value.title}}</h3>
+                            </v-list-item>
+                            <v-list-item>
+                                <span style="color:gray; display: block;">{{value.position}}
+                                <br>
+                                    {{value.startDate}} ~ {{value.endDate}}
+                                </span>
+                            </v-list-item>
+                        </v-list>
+                    </v-card>
+                </v-col>
+                <v-col cols="12" sm="12" md="6" lg="6" xl="6">
+                    <div v-for="(p_value,p_index) in value.project" :key="p_index">
+                        <v-divider v-if="p_index>0"></v-divider>
+                        <v-card elevation="0">
+                            <v-list>
+                                <v-list-item>
+                                    <h4>{{p_value.title}}</h4>
+                                </v-list-item>
+                                <v-list-item>
+                                    <span style="color:gray; display: block;">{{p_value.startDate}} ~ {{p_value.endDate}}</span>
+                                </v-list-item>
+                            </v-list>
+                        </v-card>
+                        
+                        <v-card elevation="0">
+                            <v-list>
+                                    <v-list-item>
+                                        <h5>프로젝트 설명</h5>
+                                    </v-list-item>
+                                    <v-list-item>
+                                        <p style="color:gray">{{p_value.description}}</p>
+                                    </v-list-item>
+                            </v-list>
+                        </v-card>
+                        
+                        <v-card elevation="0">
+                            <v-list>
+                                    <v-list-item>
+                                        <h5>프로젝트 역할</h5>
+                                    </v-list-item>
+                                    <v-list-item>
+                                        <p style="color:gray">{{p_value.role}}</p>
+                                    </v-list-item>
+                            </v-list>
+                        </v-card>
+                        
+                        <v-card elevation="0">
+                            <v-list>
+                                    <v-list-item>
+                                        <h5>프로젝트 사용기술</h5>
+                                    </v-list-item>
+                                    <v-list-item>
+                                        <p style="color:gray">{{p_value.tech}}</p>
+                                    </v-list-item>
+                            </v-list>
+                        </v-card>
+                    </div>
+                </v-col>
+            </v-row>   
         </v-col>
     </v-row>
 </template>

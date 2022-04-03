@@ -28,14 +28,14 @@ h2 {
   color:rgb(60, 120, 216);
 }
 
-h3 {
+h3, h4 {
   font-size: 2rem;
   margin: 0 0 1rem;
 }
 
-h4 {
+h5 {
   font-size: 1.3rem;
-  margin: 0 0 0.5rem;
+  margin: 0 0 1rem;
 }
 
 ul {
@@ -64,22 +64,23 @@ ul > li:before {
   font-weight: 500;
 }
 
-// Small to large phone
-@media screen and (max-width: 600px) {
-  h1 {
-    font-size: 2rem;
-  }
-  .profile-paragraph {
-    font-size: 1.2rem;
-  }
+.theme--dark.v-list {
+  background: #121212 !important;
+}
+
+.container {
+  width: 100%; max-width: 50rem; margin-top: 3rem;
 }
 
 // Small to medium tablet / laptop
-@media screen and (min-width: 600px) and (max-width: 1264px) {
+@media screen and (max-width: 960px) {
   h1 {
     font-size: 3rem;
   }
-  .profile-paragraph {
+  h4 {
     font-size: 1.3rem;
+  }
+  .profile-paragraph {
+    font-size: 1.1rem;
   }
 }

@@ -1,13 +1,17 @@
 <template>
-<v-container grid-list-md style="max-width: 2000px; margin-top:50px;">
+<v-container grid-list-md >
   <v-row justify="center">
-    <v-col cols="12" md="6">
-          <RfProfile/>
-          <v-divider style="margin-top : 2rem; margin-bottom : 2rem;"></v-divider>
-          <RfExperience/> 
-          <v-divider style="margin-top : 2rem; margin-bottom : 2rem;"></v-divider>
-          <RfSkill/>
-    </v-col>
+    <RfProfile/>
+    <v-divider></v-divider>
+    <RfExperience/> 
+    <v-divider></v-divider>
+    <RfOpensource/>
+    <v-divider></v-divider>
+    <RfSkill/>
+    <v-divider></v-divider>
+    <RfCertificate/>
+    <v-divider></v-divider>
+    <RfEducation/>
   </v-row>
 </v-container>
 </template>
@@ -30,6 +34,9 @@ export default {
     RfProfile: () => import('~/components/refactoring/Profile.vue'),
     RfExperience: () => import('~/components/refactoring/Experience.vue'),
     RfSkill: () => import('~/components/refactoring/Skill.vue'),
+    RfOpensource: () => import('~/components/refactoring/Opensource.vue'),
+    RfCertificate: () => import('~/components/refactoring/Certificate.vue'),
+    RfEducation: () => import('~/components/refactoring/Education.vue'),
   }
 }
 </script>
