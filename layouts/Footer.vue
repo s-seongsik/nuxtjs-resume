@@ -1,19 +1,24 @@
 <template>
-  <v-footer
-      :absolute="!fixed"
-      app
+  <v-footer padless color="#3c78d8">
+    <v-col
+      class="text-center"
+      cols="12"
     >
-      <span>&copy; {{ new Date().getFullYear() }}asdasdasd</span>
-    </v-footer>
+      <strong>{{ new Date().getFullYear() }} — Seo SeongSik. All rights reserved</strong>
+    </v-col>
+  </v-footer>
 </template>
 
 <script>
 export default {
-    data () {
-        return {
-        fixed: true,
-        }
-    }
+    data: () => ({
+      icons: [
+        'mdi-facebook',
+        'mdi-twitter',
+        'mdi-linkedin',
+        'mdi-instagram',
+      ],
+    }),
 }
 </script>
 

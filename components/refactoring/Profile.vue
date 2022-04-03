@@ -23,7 +23,7 @@
             <!-- contact -->
             <v-list-item v-for="(value, index) in profile.data.contact" :key="index">
                 <v-list-item-icon>
-                    <v-icon color="indigo">
+                    <v-icon color="primary">
                       {{value.icon}}
                     </v-icon>
                 </v-list-item-icon>
