@@ -54,12 +54,12 @@
                         
                         <v-card elevation="0">
                             <v-list>
-                                    <v-list-item>
-                                        <h5>프로젝트 역할</h5>
-                                    </v-list-item>
-                                    <v-list-item>
-                                        <p style="color:gray">{{p_value.role}}</p>
-                                    </v-list-item>
+                                <v-list-item>
+                                    <h5>프로젝트 역할</h5>
+                                </v-list-item>
+                                <ul>
+                                    <li v-for="(r_value,r_index) in p_value.role" :key="r_index"><p style="color:gray">{{r_value}}</p></li>
+                                </ul>
                             </v-list>
                         </v-card>
                         
