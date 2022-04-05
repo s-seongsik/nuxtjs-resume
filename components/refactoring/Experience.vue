@@ -19,7 +19,7 @@
                                 <h3>{{value.title}}</h3>
                             </v-list-item>
                             <v-list-item>
-                                <span style="color:gray; display: block;">{{value.position}}
+                                <span style="color:lightgray; display: block;">{{value.position}}
                                 <br>
                                     {{value.startDate}} ~ {{value.endDate}}
                                 </span>
@@ -36,7 +36,7 @@
                                     <h4>{{p_value.title}}</h4>
                                 </v-list-item>
                                 <v-list-item>
-                                    <span style="color:gray; display: block;">{{p_value.startDate}} ~ {{p_value.endDate}}</span>
+                                    <span style="color:lightgray; display: block;">{{p_value.startDate}} ~ {{p_value.endDate}}</span>
                                 </v-list-item>
                             </v-list>
                         </v-card>
@@ -47,7 +47,7 @@
                                         <h5>프로젝트 설명</h5>
                                     </v-list-item>
                                     <v-list-item>
-                                        <p style="color:gray">{{p_value.description}}</p>
+                                        <p style="color:lightgray">{{p_value.description}}</p>
                                     </v-list-item>
                             </v-list>
                         </v-card>
@@ -58,7 +58,7 @@
                                     <h5>프로젝트 역할</h5>
                                 </v-list-item>
                                 <ul>
-                                    <li v-for="(r_value,r_index) in p_value.role" :key="r_index"><p style="color:gray">{{r_value}}</p></li>
+                                    <li v-for="(r_value,r_index) in p_value.role" :key="r_index"><p style="color:lightgray">{{r_value}}</p></li>
                                 </ul>
                             </v-list>
                         </v-card>
@@ -69,7 +69,7 @@
                                         <h5>프로젝트 사용기술</h5>
                                     </v-list-item>
                                     <v-list-item>
-                                        <p style="color:gray">{{p_value.tech}}</p>
+                                        <p style="color:lightgray">{{p_value.tech}}</p>
                                     </v-list-item>
                             </v-list>
                         </v-card>

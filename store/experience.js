@@ -7,6 +7,20 @@ export const state = () => ({
             endDate : '현재',
             project: [
                 {
+                    title:"Nexpom 플랫폼 개발",
+                    startDate: "2019.07",
+                    endDate: "2022.04",
+                    description: "모니터링 시스템 플랫폼인 Nexpom 서비스 개발을 주 업무로 진행했습니다. 제조 데이터를 수집 및 가공하여 유의미한 데이터를 시각화하는 대시보드 개발을 담당했습니다. 데이터에 대한 이해가 수반되어야 고객들에게 유의미한 KPI를 제공하기 때문에 고객사의 도메인을 이해하려고 노력했습니다. 또한 고객에게 정확한 데이터를 제공헤야 하기 때문에 '정합성 검증'을 가장 중요시 합니다.",
+                    role: [
+                        "각 데이터 특성에 맞는 시각화를 위한 데이터 가공하였고, 가공은 SQL과 자바스크립트로 진행",
+                        "프로덕트 디자이너와 협업하여 UX/UI 개발 및 인터랙션을 구현",
+                        "주로 Echart.js, D3.js 라이브러리를 활용한 대시보드 개발",
+                        "차트 뿐만 아니라 Data Table 시각화도 개발",
+                        "고객사 서버에 직접 구축하기 때문에 OS(Windows, Linux)에 따른 배포진행",
+                    ],
+                    tech: "Jsp, Javascirpt, CSS, HTML, Echart.js, D3.js, Bootstrap, Mssql, Apache Tomcat"
+                },
+                {
                     title:"실적관리 시스템",
                     startDate: "2022. 01",
                     endDate: "2022. 04",
@@ -23,28 +37,30 @@ export const state = () => ({
                 },
                 {
                     title:"Demo Room Service",
-                    startDate: "2019.01",
-                    endDate: "2019.10",
-                    description: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램",
-                    role: ["프론트엔드, 백엔드, 데봅스까지 혼자 개발하였습니다.", "프론트엔드는 Vue.js로 개발하였으며 백엔드는 node express.js로 Rest-api 서버를 구축하였습니다."],
-                    tech: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램"
+                    startDate: "2022. 12",
+                    endDate: "2022. 01",
+                    description: "위즈코어 서비스를 외부적으로 설명 및 시연하기 위한 Demo Room을 런칭함, 키오스크를 통해 모니터링 시스템 화면을 전환을 해주는 REST-API 서버를 개발했습니다.",
+                    role: [
+                        "FastAPI로 REST-API 서버 구축",
+                        "Swagger UI로 API 명세서 작성 및 팀 내 공유", 
+                        "cloud 환경과 docker 컨테이너 기반 서버 배포"
+                    ],
+                    tech: "FastAPI, Swagger, Gitea, docker, cloud, Maria-DB"
                 },
                 {
                     title:"Wimo PaaS Service",
-                    startDate: "2019.01",
-                    endDate: "2019.10",
-                    description: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램",
-                    role: ["프론트엔드, 백엔드, 데봅스까지 혼자 개발하였습니다.", "프론트엔드는 Vue.js로 개발하였으며 백엔드는 node express.js로 Rest-api 서버를 구축하였습니다."],
-                    tech: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램"
+                    startDate: "2021.09",
+                    endDate: "2021.12",
+                    description: "Nexpom 서비스를 PaaS형태의 서비스로 전환하게 되면서 Wimo라는 서비스로 새롭게 탄생하였습니다. 이에 따라 Wimo 서비스에 사용되는 REST-API 서버를 개발했습니다.",
+                    role: [
+                        "기존 외부업체의 서버를 새로 개발하여 자체 관리로 전환",
+                        "FastAPI로 REST-API 서버 구축",
+                        "Swagger UI로 API 명세서 작성 및 팀 내 공유", 
+                        "cloud 환경과 docker 컨테이너 기반 서버 배포"
+                    ],
+                    tech: "FastAPI, Swagger, Gitea, docker, cloud, Maria-DB"
                 },
-                {
-                    title:"Nexpom 플랫폼 프론트엔드",
-                    startDate: "2019.01",
-                    endDate: "2019.10",
-                    description: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램",
-                    role: ["프론트엔드, 백엔드, 데봅스까지 혼자 개발하였습니다.", "프론트엔드는 Vue.js로 개발하였으며 백엔드는 node express.js로 Rest-api 서버를 구축하였습니다."],
-                    tech: "사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램 사내 업무 실적을 관리하기 위한 프로그램"
-                },
+                
             ],
         },
     ]

@@ -4,10 +4,13 @@ export const state = () => ({
             title : '개인 기술블로그',
             contents : [
                 {
-                    text: '새로운 기술들을 공부할 때, 트러블 슈팅을 해결할 때, 개발 팁 등 자세히 정리하여 공유도하고 참고 서적으로 사용하기 위함',
+                    text: '2021년 하반기부터 기술 및 경험들을 꾸준히 작성하고 있습니다.',
                 },
                 {
-                    text: '2021년 하반기부터 개발에 관련된 모든 것을 꾸준히 작성하고 있음',
+                    text: '터득한 기술과 경험을 기록하지 않으면 다시 찾아봐야하는 수고스러움을 알기 때문에 기록을 중요시 생각합니다.',
+                },
+                {
+                    text: '영역의 한계를 두지않고 다양한 기술들을 공부하고 있습니다.',
                 },
                 {
                     text: 'https://s-seongsik.github.io/',
@@ -19,19 +22,47 @@ export const state = () => ({
             title : 'nuxtjs-resume',
             contents : [
                 {
-                    text: 'Nuxt.js와 vuetify로 만든 정적 웹 포트폴리오 프로젝트',
+                    text: 'Nuxt.js와 vuetify로 만든 정적 웹 이력서 프로젝트입니다.',
                 },
                 {
-                    text: '마땅히 마음에 드는게 없어 내가 만들어버린 프로젝트',
+                    text: '언제든 커스텀이 가능한 웹 이력서가 필요했기 때문에 직접 만들게 되었습니다.',
                 },
                 {
-                    text: '누구나 쉽게 사용할 수 있는 웹 포트폴리오 프로젝트',
+                    text: '모바일, 테블릿, 노트북, PC 등 다양한 디바이스에서도 접근할 수 있도록 모던 웹(반응형)에 신경썼습니다.',
+                },
+                {
+                    text: '누구나 쉽게 사용할 수 있도록 간단하게 구현하고자 노력했습니다.',
                 },
                 {
                     text: 'https://github.com/s-seongsik/nuxtjs-resume',
                     link: 'https://github.com/s-seongsik/nuxtjs-resume'
                 }
                 
+            ],
+        },
+        {
+            title : 'Willy will 일정 관리 애플리케이션',
+            contents : [
+                {
+                    text: '네이티브 앱(안드로이드)을 개발해보고 구글플레이에 배포까지 하고싶어서 시작한 토이 프로젝트(5인) 입니다.',
+                },
+                {
+                    text: '할일(To-do) 혹은 작업(Task) 정리를 도와주는 애플리케이션으로, 실제 다양한 To-do 앱들을 직접 사용해보면서 부족한 기능들을 추가하여 개발하였습니다.(예, 목표달성 기능)',
+                },
+                {
+                    text: '모안드로이드 스튜디오, Java, Gradle, Sqlite로 개발을 진행했습니다. 협업은 Git, Github, GitHub Desktop으로 진행했습니다.',
+                },
+                {
+                    text: '일정 추가 화면 개발을 담당하였습니다.',
+                },
+                {
+                    text: 'https://play.google.com/store/apps/details?id=com.willy.will',
+                    link: 'https://play.google.com/store/apps/details?id=com.willy.will'
+                },
+                {
+                    text: 'https://github.com/HelloWorld0707/willy_will',
+                    link: 'https://github.com/HelloWorld0707/willy_will'
+                },
             ],
         },
     ]
