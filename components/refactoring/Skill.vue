@@ -20,7 +20,7 @@
                     <v-list-item>
                         <ul>
                             <li v-for="(list, index) in value.contents" :key="index">
-                                <p style="color:lightgray">{{list.text}}</p>
+                                <p class="normal-paragraph" style="color:lightgray">{{list.text}}</p>
                             </li>
                         </ul>
                     </v-list-item>

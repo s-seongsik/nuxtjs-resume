@@ -79,6 +79,11 @@ ul > li:before {
   font-weight: 500;
 }
 
+a {
+  display: block;
+  float: left;
+}
+
 .theme--dark.v-list {
   background: #121212 !important;
 }
@@ -87,18 +92,29 @@ ul > li:before {
   width: 100%; max-width: 50rem; margin-top: 3rem;
 }
 
+html,body{
+  width:100%;
+  overflow-x:hidden;
+}
+
 // Small to medium tablet / laptop
 @media screen and (max-width: 960px) {
-  h1 {
+  h1,h2 {
     font-size: 2.5rem;
   }
-  h4 {
+  h3 {
     font-size: 1.5rem;
+  }
+  h4 {
+    font-size: 1.2rem;
   }
   h5 {
     font-size: 1rem;
   }
   .profile-paragraph {
     font-size: 1.1rem;
+  }
+  .normal-paragraph {
+    font-size: 1rem;
   }
 }

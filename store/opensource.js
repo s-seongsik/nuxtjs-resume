@@ -34,34 +34,36 @@ export const state = () => ({
                     text: '누구나 쉽게 사용할 수 있도록 간단하게 구현하고자 노력했습니다.',
                 },
                 {
-                    text: 'https://github.com/s-seongsik/nuxtjs-resume',
+                    text: 'To Github 저장소',
                     link: 'https://github.com/s-seongsik/nuxtjs-resume'
                 }
                 
             ],
         },
         {
-            title : 'Willy will 일정 관리 애플리케이션',
+            title : 'Willy will 일정 관리 앱',
             contents : [
                 {
                     text: '네이티브 앱(안드로이드)을 개발해보고 구글플레이에 배포까지 하고싶어서 시작한 토이 프로젝트(5인) 입니다.',
                 },
                 {
-                    text: '할일(To-do) 혹은 작업(Task) 정리를 도와주는 애플리케이션으로, 실제 다양한 To-do 앱들을 직접 사용해보면서 부족한 기능들을 추가하여 개발하였습니다.(예, 목표달성 기능)',
+                    text: '할일(To-do) 혹은 작업(Task) 정리를 도와주는 애플리케이션입니다.',
                 },
                 {
-                    text: '모안드로이드 스튜디오, Java, Gradle, Sqlite로 개발을 진행했습니다. 협업은 Git, Github, GitHub Desktop으로 진행했습니다.',
+                    text: '실제 다양한 To-do 앱들을 직접 사용해보면서 부족한 기능들을 추가하여 개발하였습니다.(예, 목표달성 기능)',
+                },
+                {
+                    text: '모안드로이드 스튜디오, Java, Gradle, Sqlite로 개발을 진행했습니다.',
+                },
+                {
+                    text: '협업은 Git, Github, GitHub Desktop으로 진행했습니다.',
                 },
                 {
                     text: '일정 추가 화면 개발을 담당하였습니다.',
                 },
                 {
-                    text: 'https://play.google.com/store/apps/details?id=com.willy.will',
+                    text: 'To Google play',
                     link: 'https://play.google.com/store/apps/details?id=com.willy.will'
-                },
-                {
-                    text: 'https://github.com/HelloWorld0707/willy_will',
-                    link: 'https://github.com/HelloWorld0707/willy_will'
                 },
             ],
         },

@@ -47,7 +47,7 @@
                                         <h5>프로젝트 설명</h5>
                                     </v-list-item>
                                     <v-list-item>
-                                        <p style="color:lightgray">{{p_value.description}}</p>
+                                        <p class="normal-paragraph" style="color:lightgray">{{p_value.description}}</p>
                                     </v-list-item>
                             </v-list>
                         </v-card>
@@ -58,7 +58,7 @@
                                     <h5>프로젝트 역할</h5>
                                 </v-list-item>
                                 <ul>
-                                    <li v-for="(r_value,r_index) in p_value.role" :key="r_index"><p style="color:lightgray">{{r_value}}</p></li>
+                                    <li v-for="(r_value,r_index) in p_value.role" :key="r_index"><p class="normal-paragraph" style="color:lightgray">{{r_value}}</p></li>
                                 </ul>
                             </v-list>
                         </v-card>
@@ -69,7 +69,7 @@
                                         <h5>프로젝트 사용기술</h5>
                                     </v-list-item>
                                     <v-list-item>
-                                        <p style="color:lightgray">{{p_value.tech}}</p>
+                                        <p class="normal-paragraph" style="color:lightgray">{{p_value.tech}}</p>
                                     </v-list-item>
                             </v-list>
                         </v-card>
