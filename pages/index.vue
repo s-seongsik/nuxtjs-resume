@@ -1,5 +1,5 @@
 <template>
-<v-container grid-list-md >
+<v-container min-width:1000px;>
   <v-row justify="center">
     <RfProfile/>
     <!-- <v-divider></v-divider> -->
