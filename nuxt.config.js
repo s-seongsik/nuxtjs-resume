@@ -9,8 +9,8 @@ export default {
     baseUrl: process.env.BASE_URL || 'http://domain/resume/'
   },
   head: {
-    titleTemplate: '%s - 서성식',
-    title: 'test',
+    titleTemplate: '%s | 서성식',
+    title: '이력서',
     htmlAttrs: {
       lang: 'ko'
     },
