@@ -10,9 +10,9 @@ export const state = () => ({
                     title:"Nexpom 플랫폼 개발",
                     startDate: "2019.07",
                     endDate: "2022.04",
-                    description: "모니터링 시스템 플랫폼인 Nexpom 서비스 개발을 주 업무로 진행했습니다. 제조 데이터를 수집 및 가공하여 유의미한 데이터를 시각화하는 대시보드 개발을 담당했습니다. 데이터에 대한 이해가 수반되어야 고객들에게 유의미한 KPI를 제공하기 때문에 고객사의 도메인을 이해하려고 노력했습니다. 또한 고객에게 정확한 데이터를 제공헤야 하기 때문에 '정합성 검증'을 가장 중요시 합니다.",
+                    description: "모니터링 시스템 플랫폼인 Nexpom 서비스 개발을 주 업무로 진행했습니다. 제조 데이터를 수집 및 가공하여 유의미한 데이터를 시각화하는 대시보드 개발을 담당했습니다. 데이터에 대한 이해가 수반되어야 고객들에게 유의미한 KPI를 제공하기 때문에 고객사의 도메인을 이해하려고 노력했습니다. 또한 고객에게 정확한 데이터를 제공해야 하므로 `정합성 검증`을 가장 중요시합니다.",
                     role: [
-                        "각 데이터 특성에 맞는 시각화를 위한 데이터 가공하였고, 가공은 SQL과 자바스크립트로 진행",
+                        "각 데이터 특성에 맞는 시각화를 위한 데이터를 가공, 가공은 주로 SQL과 자바스크립트로 진행",
                         "프로덕트 디자이너와 협업하여 UX/UI 개발 및 인터랙션을 구현",
                         "주로 Echart.js, D3.js 라이브러리를 활용한 대시보드 개발",
                         "차트 뿐만 아니라 Data Table 시각화도 개발",
@@ -33,7 +33,7 @@ export const state = () => ({
                         "Express.js로 백엔드 Rest-api 서버 개발",
                         "cloud 환경과 docker 컨테이너 기반 app 배포"
                     ],
-                    tech: "Vue.js, Vue-cli, Vue-router, Vuex, Axios, Express.js, Node.js, Gitea, Docker, Maria-DB"
+                    tech: "Vue.js, Vuetify, Vue-cli, Vue-router, Vuex, Axios, Express.js, Node.js, Gitea, Docker, Maria-DB"
                 },
                 {
                     title:"Demo Room Service",

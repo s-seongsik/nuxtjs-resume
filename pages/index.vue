@@ -2,15 +2,15 @@
 <v-container min-width:1000px;>
   <v-row justify="center">
     <RfProfile/>
-    <!-- <v-divider></v-divider> -->
+    <v-divider></v-divider>
     <RfExperience/> 
-    <!-- <v-divider></v-divider> -->
+    <v-divider></v-divider>
     <RfOpensource/>
-    <!-- <v-divider></v-divider> -->
+    <v-divider></v-divider>
     <RfSkill/>
-    <!-- <v-divider></v-divider> -->
+    <v-divider></v-divider>
     <RfCertificate/>
-    <!-- <v-divider></v-divider> -->
+    <v-divider></v-divider>
     <RfEducation/>
   </v-row>
 </v-container>
