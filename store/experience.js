@@ -37,7 +37,7 @@ export const state = () => ({
                 },
                 {
                     title:"Demo Room Service",
-                    startDate: "2022. 12",
+                    startDate: "2021. 12",
                     endDate: "2022. 01",
                     description: "위즈코어 서비스를 외부적으로 설명 및 시연하기 위한 Demo Room을 런칭함, 키오스크를 통해 모니터링 시스템 화면을 전환을 해주는 REST-API 서버를 개발했습니다.",
                     role: [
