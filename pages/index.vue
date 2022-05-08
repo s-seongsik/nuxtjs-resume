@@ -21,12 +21,12 @@ export default {
   name: 'IndexPage',
   components:{
     /** 리팩토링 컴포넌트 */
-    RfProfile: () => import('~/components/refactoring/Profile.vue'),
-    RfExperience: () => import('~/components/refactoring/Experience.vue'),
-    RfSkill: () => import('~/components/refactoring/Skill.vue'),
-    RfOpensource: () => import('~/components/refactoring/Opensource.vue'),
-    RfCertificate: () => import('~/components/refactoring/Certificate.vue'),
-    RfEducation: () => import('~/components/refactoring/Education.vue'),
+    RfProfile: () => import('~/components/Profile.vue'),
+    RfExperience: () => import('~/components/Experience.vue'),
+    RfSkill: () => import('~/components/Skill.vue'),
+    RfOpensource: () => import('~/components/Opensource.vue'),
+    RfCertificate: () => import('~/components/Certificate.vue'),
+    RfEducation: () => import('~/components/Education.vue'),
   }
 }
 </script>

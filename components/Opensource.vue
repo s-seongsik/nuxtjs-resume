@@ -19,7 +19,7 @@
                     <v-list-item>
                         <ul>
                             <li v-for="(list, index) in value.contents" :key="index">
-                                <p style="color:lightgray" v-if="list.link"><a :href="list.link" target="_blank">{{list.text}}</a></p>
+                                <p style="color:lightgray; overflow:auto;" v-if="list.link"><a :href="list.link" target="_blank">{{list.text}}</a></p>
                                 <p style="color:lightgray" v-else>{{list.text}}</p>
 
                                 <!-- <p v-if="list.link" class="normal-paragraph" style="color:lightgray"><a :href="list.link" target="_blank">{{list.text}}</a></p>
